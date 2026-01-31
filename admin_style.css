@@ -1,0 +1,56 @@
+
+
+    
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #f8f9fa; }
+        
+        /* تنسيق القائمة الجانبية مثل الصورة الداكنة */
+        .sidebar {
+            background-color: #343a40;
+            min-height: 100vh;
+            color: white;
+            padding: 0;
+        }
+        .sidebar-header {
+            padding: 20px;
+            text-align: center;
+            background-color: #212529;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .nav-link {
+            color: #adb5bd;
+            padding: 15px 20px;
+            border-bottom: 1px solid #4b545c;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: 0.3s;
+        }
+        .nav-link:hover {
+            background-color: #495057;
+            color: white;
+        }
+        .nav-link.active {
+            color: white;
+            background-color: #007bff;
+        }
+        
+        /* تنسيق المحتوى الرئيسي */
+        .main-content { padding: 30px; }
+        .card-custom {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .table thead { background-color: #343a40; color: white; }
+
+
+        /*start product css  */
+        body { background-color: #f4f7f6; }
+        .form-container { background: white; padding: 30px;
+             border-radius: 15px; box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+             margin-top: 50px; }
+    
+    
